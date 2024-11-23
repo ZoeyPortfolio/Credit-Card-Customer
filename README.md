@@ -10,7 +10,7 @@ The data is obtained from Kaggle with 10127 observations and 23 variables. I sel
 I conducted an Exploratory Data Analysis to present a brief idea of the dataset. 
 
 ### Step 3 Propensity Score Matching
-I used Propensity Score Matching because the total number of customers with high credit limits is different from the total number of customers with low credit limits in the observational dataset. The treatment ground and control group sizes are not balanced. Therefore, I used Propensity Score Matching to redistribute the data, because it is unethical to randomly distribute customers into high credit and low credit limits. Through Propensity Score Matching, the treated and controlled observations are matched, and observations not matched are removed from the dataset. 
+I used Propensity Score Matching because the total number of customers with high credit limits is different from the total number of customers with low credit limits in the observational dataset. The treatment group and control group sizes are not balanced. Therefore, I used Propensity Score Matching to redistribute the data, because it is unethical to randomly distribute customers into high credit and low credit limits. Through Propensity Score Matching, the treated and controlled observations are matched, and observations not matched are removed from the dataset. 
 
 ### Step 4 Logistical Regression Model
 I created a logistical regression model to show the casual inference between whether customers stay in credit card service and high credit limit. 
